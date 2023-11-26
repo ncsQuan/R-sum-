@@ -44,15 +44,15 @@
 % Change the colours if you want to
 \definecolor{SlateGrey}{HTML}{2E2E2E}
 \definecolor{LightGrey}{HTML}{666666}
-\definecolor{DarkPastelRed}{HTML}{450808}
-\definecolor{PastelRed}{HTML}{8F0D0D}
+\definecolor{NavyBlue}{HTML}{001F3F}
+\definecolor{RoyalBlue}{HTML}{4169E1}
 \definecolor{GoldenEarth}{HTML}{E7D192}
 \colorlet{name}{black}
-\colorlet{tagline}{PastelRed}
-\colorlet{heading}{DarkPastelRed}
+\colorlet{tagline}{RoyalBlue}
+\colorlet{heading}{NavyBlue}
 \colorlet{headingrule}{GoldenEarth}
-\colorlet{subheading}{PastelRed}
-\colorlet{accent}{PastelRed}
+\colorlet{subheading}{RoyalBlue}
+\colorlet{accent}{RoyalBlue}
 \colorlet{emphasis}{SlateGrey}
 \colorlet{body}{LightGrey}
 
@@ -95,23 +95,21 @@
 \addbibresource{sample.bib}
 
 \begin{document}
-\name{Your Name Here}
-\tagline{Your Position or Tagline Here}
+\name{Naquan Smith}
+\tagline{Data Enthusiast}
 %% You can add multiple photos on the left or right
 \photoR{2.8cm}{Globe_High}
 % \photoL{2.5cm}{Yacht_High,Suitcase_High}
 
 \personalinfo{%
   % Not all of these are required!
-  \email{your_name@email.com}
-  \phone{000-00-0000}
-  \mailaddress{Åddrésş, Street, 00000 Cóuntry}
-  \location{Location, COUNTRY}
-  \homepage{www.homepage.com}
-  \twitter{@twitterhandle}
-  \linkedin{your_id}
-  \github{your_id}
-  \orcid{0000-0000-0000-0000}
+  \email{naquan_s@yahoo.com}
+  \phone{678-900-3426}
+  \location{Georgia, United States}
+  % \homepage{www.naquan.com}
+  \linkedin{naquan-s}
+  \github{ncsQuan}
+  \orcid{0009-0009-1865-5666}
   %% You can add your own arbitrary detail with
   %% \printinfo{symbol}{detail}[optional hyperlink prefix]
   % \printinfo{\faPaw}{Hey ho!}[https://example.com/]
@@ -145,73 +143,90 @@
 \begin{paracol}{2}
 \cvsection{Experience}
 
-\cvevent{Job Title 1}{Company 1}{Month 20XX -- Ongoing}{Location}
+\cvevent{Software Engineer}{Macy's}{June 2021 -- Ongoing}{Johns Creek, GA}
 \begin{itemize}
-\item Job description 1
-\item Job description 2
+\item Enhanced product recommendations to increase click through \& conversion rates equaling higher revenue per user. 
+\item Supported the development of knowledge graphs for large-scale data solutions utilizing Google’s cloud platform (\textbf{\textit{GCP}}) through data pipelines created with \textbf{\textit{SQL}} and \textbf{\textit{Python}} while monitoring \textbf{\textit{dashboards}} to ensure expected performance during peak traffic.
+\item Automated testing scripts for web-based applications utilizing the \textbf{\textit{JavaScript}} programming language. 
+\item Engaged in the complete Software Development Life Cycle (SDLC), comprising iterative development, estimations, design sessions, and code reviews.
 \end{itemize}
 
 \divider
 
-\cvevent{Job Title 2}{Company 2}{Month 20XX -- Ongoing}{Location}
+\cvevent{Quality Assurance Test Engineer Intern}{SimplePart}{January 2021 -- March 2021}{Atlanta, GA}
 \begin{itemize}
-\item Job description 1
-\item Job description 2
+\item Accessed performance for websites used globally. Thrived in an \textbf{agile} environment with a focus on software testing. 
+\item Ensured standards and accessibility for all web applications pushed to production.
+\item Exceeded at finding and recording bugs. Learned automation testing and clean coding principles.
+\end{itemize}
+
+\divider
+
+\cvevent{AHA Technical Support}{Apple}{January 2019 -- July 2020}{Atlanta, GA}
+\begin{itemize}
+\item Troubleshot macOS and iOS devices (including iPadOS and watchOS). 
+\item Handled 60+ cases weekly, efficiently managing repair timelines and initiating mail or store service.
 \end{itemize}
 
 \cvsection{Projects}
+\cvevent{CCSE Hackathon}{WellStar Challenge}{}{}
 
-\cvevent{Project 1}{Funding agency/institution}{}{}
 \begin{itemize}
-\item Details
+\item Led a team of three and placed 3rd out of 32 in WellStar’s ServiceNow challenge. 
+\item Utilized \textbf{ServiceNow} to deliver a mobile app prototype to address COVID’s impact on the work environment.
 \end{itemize}
 
 \divider
 
-\cvevent{Project 2}{Funding agency/institution}{Project duration}{}
-A short abstract would also work.
+\cvevent{J2P: Java to Python Translator}{Kennesaw State University}{}{}
 
-\medskip
+\begin{itemize}
+\item I led the team to deliver a working translator. 
+\item We developed the GUI and lexical analyzer with \textbf{\textit{Java}}.
+\end{itemize}
 
-\cvsection{A Day of My Life}
 
-% Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
-% \wheelchart{outer radius}{inner radius}{
-% comma-separated list of value/text width/color/detail}
-\wheelchart{1.5cm}{0.5cm}{%
-  6/8em/accent!30/{Sleep,\\beautiful sleep},
-  3/8em/accent!40/Hopeful novelist by night,
-  8/8em/accent!60/Daytime job,
-  2/10em/accent/Sports and relaxation,
-  5/6em/accent!20/Spending time with family
-}
+% \medskip
+
+% \cvsection{A Day of My Life}
+
+% % Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
+% % \wheelchart{outer radius}{inner radius}{
+% % comma-separated list of value/text width/color/detail}
+% \wheelchart{1.5cm}{0.5cm}{%
+%   6/8em/accent!30/{Sleep,\\beautiful sleep},
+%   3/8em/accent!40/Hopeful novelist by night,
+%   8/8em/accent!60/Daytime job,
+%   2/10em/accent/Sports and relaxation,
+%   5/6em/accent!20/Spending time with family
+% }
 
 % use ONLY \newpage if you want to force a page break for
 % ONLY the current column
-\newpage
+% \newpage
 
-\cvsection{Publications}
+% \cvsection{Publications}
 
-%% Specify your last name(s) and first name(s) as given in the .bib to automatically bold your own name in the publications list.
-%% One caveat: You need to write \bibnamedelima where there's a space in your name for this to work properly; or write \bibnamedelimi if you use initials in the .bib
-%% You can specify multiple names, especially if you have changed your name or if you need to highlight multiple authors.
-\mynames{Lim/Lian\bibnamedelima Tze,
-  Wong/Lian\bibnamedelima Tze,
-  Lim/Tracy,
-  Lim/L.\bibnamedelimi T.}
+% %% Specify your last name(s) and first name(s) as given in the .bib to automatically bold your own name in the publications list.
+% %% One caveat: You need to write \bibnamedelima where there's a space in your name for this to work properly; or write \bibnamedelimi if you use initials in the .bib
+% %% You can specify multiple names, especially if you have changed your name or if you need to highlight multiple authors.
+% \mynames{Lim/Lian\bibnamedelima Tze,
+%   Wong/Lian\bibnamedelima Tze,
+%   Lim/Tracy,
+%   Lim/L.\bibnamedelimi T.}
 %% MAKE SURE THERE IS NO SPACE AFTER THE FINAL NAME IN YOUR \mynames LIST
 
-\nocite{*}
+% \nocite{*}
 
-\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+% \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
 
-\divider
+% \divider
 
-\printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}},type=article]
+% \printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}},type=article]
 
-\divider
+% \divider
 
-\printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
+% \printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
 
 %% Switch to the right column. This will now automatically move to the second
 %% page if the content is too long.
@@ -220,31 +235,44 @@ A short abstract would also work.
 \cvsection{My Life Philosophy}
 
 \begin{quote}
-``Something smart or heartfelt, preferably in one sentence.''
+``Be the change that you want to see.''
 \end{quote}
 
-\cvsection{Most Proud of}
+% \cvsection{Most Proud of}
 
-\cvachievement{\faTrophy}{Fantastic Achievement}{and some details about it}
+% \cvachievement{\faTrophy}{Fantastic Achievement}{and some details about it}
 
-\divider
+% \divider
 
-\cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
+% \cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
 
-\divider
+% \divider
 
-\cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
+% \cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
 
 \cvsection{Strengths}
 
-\cvtag{Hard-working}
-\cvtag{Eye for detail}\\
-\cvtag{Motivator \& Leader}
+\cvtag{Diligent}
+\cvtag{Attention to detail}\\
+\cvtag{Inspiring and effective leader}
 
 \divider\smallskip
 
+\cvtag{Python}
+\cvtag{SQL}
+\cvtag{HTML}
+\cvtag{JavaScript}
+\cvtag{Java}
+\cvtag{C\#}
 \cvtag{C++}
-\cvtag{Embedded Systems}\\
+\cvtag{Jira}
+\cvtag{Elasticsearch}
+\cvtag{Kubeflow}
+\cvtag{Docker}
+\cvtag{Confluence}
+\cvtag{Unity}
+\cvtag{Google Cloud Platform}
+\cvtag{Test Automation}\\
 \cvtag{Statistical Analysis}
 
 \cvsection{Languages}
@@ -252,10 +280,10 @@ A short abstract would also work.
 \cvskill{English}{5}
 \divider
 
-\cvskill{Spanish}{4}
+\cvskill{Spanish}{3}
 \divider
 
-\cvskill{German}{3.5} %% Supports X.5 values.
+\cvskill{Japanese}{1} %% Supports X.5 values.
 
 %% Yeah I didn't spend too much time making all the
 %% spacing consistent... sorry. Use \smallskip, \medskip,
@@ -264,29 +292,30 @@ A short abstract would also work.
 
 \cvsection{Education}
 
-\cvevent{Ph.D.\ in Your Discipline}{Your University}{Sept 2002 -- June 2006}{}
-Thesis title: Wonderful Research
-
-\divider
-
-\cvevent{M.Sc.\ in Your Discipline}{Your University}{Sept 2001 -- June 2002}{}
-
-\divider
-
-\cvevent{B.Sc.\ in Your Discipline}{Stanford University}{Sept 1998 -- June 2001}{}
+% \cvevent{Ph.D.\ in Your Discipline}{Your University}{Sept 2002 -- June 2006}{}
+% Thesis title: Wonderful Research
 
 % \divider
 
-\cvsection{Referees}
-
-% \cvref{name}{email}{mailing address}
-\cvref{Prof.\ Alpha Beta}{Institute}{a.beta@university.edu}
-{Address Line 1\\Address line 2}
+\cvevent{M.Sc.\ in Computer Science}{Georgia Institute of Technology}{Jan 2023 -- Dec 2025}{}
+Specialization: Machine Learning
 
 \divider
 
-\cvref{Prof.\ Gamma Delta}{Institute}{g.delta@university.edu}
-{Address Line 1\\Address line 2}
+\cvevent{B.Sc.\ in Computer Science}{Kennesaw State University}{Jan 2018 -- May 2021}{}
+
+% \divider
+
+% \cvsection{Referees}
+
+% % \cvref{name}{email}{mailing address}
+% \cvref{Prof.\ Alpha Beta}{Institute}{a.beta@university.edu}
+% {Address Line 1\\Address line 2}
+
+% \divider
+
+% \cvref{Prof.\ Gamma Delta}{Institute}{g.delta@university.edu}
+% {Address Line 1\\Address line 2}
 
 
 \end{paracol}
