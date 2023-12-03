@@ -275,7 +275,9 @@
   \endgroup\medskip
 }
 
-\renewenvironment{quote}{\color{accent}\itshape\large}{\par}
+% \renewenvironment{summary}{\color{black}\itshape\large}{\par}
+
+\renewenvironment{quote}{\color{black}\itshape\large}{\par}
 
 \newcommand{\cvsection}[2][]{%
   \nointerlineskip\bigskip%  %% bugfix in v1.6.2
